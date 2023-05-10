@@ -1,0 +1,36 @@
+body{
+    background-image: url(./img/MacBook\ Pro\ -\ 1.svg);
+    background-color: #48D1CC;
+    background-repeat: no-repeat;
+    pointer-events: auto;
+    background-size: 100%;
+    opacity: 0.90;
+    background-position: 0 0; 
+    position: absolute;
+    width: 100vw;
+    height: 100vh;   
+}
+.prato{
+    background: no-repeat;
+    position: absolute;
+    right: 90px;
+    height: 1000px;  
+}
+.ver__mais {
+    text-align: center;
+    background-color: #ffffff;
+    width: 280px;
+    font-size: 12px;
+    font-weight: 600;
+    left: 510px;
+    top: 500px;
+    border-radius: 32px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+}
+.menu_cima{
+    display: flex;
+    gap: 100px;
+    color: #ffffff;
+
+}
