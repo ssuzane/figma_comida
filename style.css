@@ -1,36 +1,102 @@
 body{
-    background-image: url(./img/MacBook\ Pro\ -\ 1.svg);
+    background-image: url(./img/original\ pc.svg);
     background-color: #48D1CC;
     background-repeat: no-repeat;
     pointer-events: auto;
     background-size: 100%;
     opacity: 0.90;
-    background-position: 0 0; 
-    position: absolute;
+    background-position: 0 0;
     width: 100vw;
     height: 100vh;   
+    display: flex;
+    flex-direction: column;
 }
-.prato{
-    background: no-repeat;
-    position: absolute;
-    right: 90px;
-    height: 1000px;  
+header{
+    display: flex;
+    gap: 300px;
 }
-.ver__mais {
-    text-align: center;
-    background-color: #ffffff;
-    width: 280px;
-    font-size: 12px;
-    font-weight: 600;
-    left: 510px;
-    top: 500px;
-    border-radius: 32px;
-    padding: 21.5px 0px;
-    text-decoration: none;
+
+.prato img{
+    height: 500px;  
+    position: relative;
+    top: 50px;
 }
 .menu_cima{
     display: flex;
     gap: 100px;
     color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    
+    
+}
 
+footer{
+   margin: 20px;
+    bottom: 2px;
+}
+.botao1{
+    background-color: #d14848;
+    border: solid 2px #d1485f;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    bottom: 20px;
+    margin: 30px;
+}
+.botao2{
+    background-color: #d14848;
+    border: solid 2px #d1485f;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    bottom: 20px;
+    margin: 30px;
+
+}
+a{
+    text-decoration: none;
+}
+.compra{
+    background-color: darkorange;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.compra img{
+    height: 30px;
+}
+.apps{
+    display: flex;
+    align-items: center;
+}
+.apps img{
+    height: 30px;
+
+}
+.anima{
+    background-color: darkturquoise;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+    position: absolute;
+    left: 480px;
+    top: 20px;
+
+}
+.anima :hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
